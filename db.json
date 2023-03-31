@@ -47,6 +47,30 @@
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
       "likes": 1
+    },
+    {
+      "name": "Cat Hotel",
+      "image": "https://www.lego.com/cdn/cs/set/assets/blte5746d29fcdbf707/41742.png?format=webply&fit=bounds&quality=60&width=800&height=800&dpr=2",
+      "likes": 0,
+      "id": 9
+    },
+    {
+      "name": "Cat Hotel",
+      "image": "https://www.lego.com/cdn/cs/set/assets/blte5746d29fcdbf707/41742.png?format=webply&fit=bounds&quality=60&width=800&height=800&dpr=2",
+      "likes": 0,
+      "id": 10
+    },
+    {
+      "name": "Friendship Treehouse",
+      "image": "https://www.lego.com/cdn/cs/set/assets/bltdeefbd3ce2e3c855/41703_alt1.png?format=webply&fit=bounds&quality=60&width=800&height=800&dpr=2",
+      "likes": 0,
+      "id": 11
+    },
+    {
+      "name": "GI Joe",
+      "image": "https://bbts1.azureedge.net/images/p/full/2021/10/456265d5-c6a5-4b80-95b5-4a77bde09d1c.jpg",
+      "likes": 0,
+      "id": 12
     }
   ]
 }
