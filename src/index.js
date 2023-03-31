@@ -21,11 +21,29 @@ document.addEventListener("DOMContentLoaded", () => {
     btn.setAttribute("class", "like-btn");
     btn.setAttribute("id", toy.id);
     btn.textContent = "Like ❤️";
+    btn.addEventListener("click", () => {
+      addLike(toy, p);
+    });
     div.appendChild(hTwo);
     div.appendChild(img);
     div.appendChild(p);
     div.appendChild(btn);
     toyCollectionContainer.appendChild(div);
+  }
+  //takes toy and p created in createToyCard()
+  function addLike(toy, p) {
+    toy.likes += 1;
+    p.textContent = `${toy.likes} Likes`;
+    const configurationObject = {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(toy),
+    };
+    fetch(`http://localhost:3000/toys/${toy.id}`, configurationObject)
+      .then((response) => response.json())
+      .then((updatedToy) => {});
   }
 
   //Fetches all toys or main
